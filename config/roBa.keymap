@@ -83,10 +83,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W         &kp E         &kp R        &kp T                                            &kp Y              &kp U  &lt 5 I   &kp O             &kp P
-&kp A               &kp S         &kp D         &kp F        &kp G            &kp LS(LG(S))      &kp MINUS    &kp H              &kp J  &kp K     &kp L             &kp BACKSPACE
-&mt LEFT_CONTROL Z  &kp X         &kp C         &kp V        &kp B            &trans             &trans       &kp N              &kp M  &kp SEMI  &kp SINGLE_QUOTE  &kp ENTER
-&kp LEFT_SHIFT      &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 SPACE  &lt 2 LC(SPACE)  &lt 3 TAB          &kp RG(TAB)  &kp RIGHT_COMMAND                                     &mt RIGHT_SHIFT SLASH
+&kp Q               &kp W         &kp E         &kp R        &kp T                                            &kp Y              &kp U  &lt 5 I    &kp O       &kp P
+&kp A               &kp S         &kp D         &kp F        &kp G            &kp LS(LG(S))      &kp MINUS    &kp H              &kp J  &kp K      &kp L       &kp BACKSPACE
+&mt LEFT_CONTROL Z  &kp X         &kp C         &kp V        &kp B            &trans             &trans       &kp N              &kp M  &kp COMMA  &kp PERIOD  &kp ENTER
+&kp LEFT_SHIFT      &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 SPACE  &lt 2 LC(SPACE)  &lt 3 TAB          &kp RG(TAB)  &kp RIGHT_COMMAND                                &mt RIGHT_SHIFT SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -94,10 +94,10 @@
 
         NUM {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                            &kp NUMBER_6     &kp NUMBER_7      &kp NUMBER_8       &kp NUMBER_9   &kp NUMBER_0
-&kp PERIOD    &kp PLUS      &kp MINUS     &kp ASTERISK  &kp SLASH  &kp EQUAL      &trans  &kp MINUS        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp GRAVE
-&trans        &trans        &trans        &trans        &trans     &trans         &trans  &trans           &trans            &trans             &trans         &trans
-&trans        &trans        &trans        &trans        &trans     &trans         &trans  &kp RIGHT_SHIFT                                                      &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                            &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8       &kp NUMBER_9   &kp NUMBER_0
+&kp PERIOD    &kp PLUS      &kp MINUS     &kp ASTERISK  &kp SLASH  &kp EQUAL      &trans  &kp MINUS     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp GRAVE
+&trans        &trans        &trans        &trans        &trans     &trans         &trans  &trans        &kp COMMA         &trans             &trans         &trans
+&trans        &trans        &trans        &trans        &trans     &trans         &trans  &trans                                                            &kp RIGHT_SHIFT
             >;
         };
 
