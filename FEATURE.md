@@ -6,5 +6,5 @@
 
 ## タップ反応速度 (config/roBa.keymap)
 
-- &mt の tapping-term-ms = 150ms（モディファイアタップの判定時間）
-- &lt の tapping-term-ms = 150ms（レイヤータップの判定時間）
+- &mt の tapping-term-ms = 100ms（モディファイアタップの判定時間）
+- &lt の tapping-term-ms = 100ms（レイヤータップの判定時間）
