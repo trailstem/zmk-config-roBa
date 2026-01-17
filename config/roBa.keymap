@@ -13,6 +13,7 @@
 
 &trackball {
     // automouse-layer = <4>;  // 無効化: &mo 4でホールド制御に変更
+
     scroll-layers = <5>;
 
     // arrows {
@@ -123,10 +124,10 @@
 
         MOUSE {
             bindings = <
-&kp ESCAPE  &trans  &trans  &kp LS(LG(NUMBER_4))  &kp LS(LG(NUMBER_5))                      &trans  &msc SCRL_DOWN  &mo 5     &trans                &kp RC(UP_ARROW)
-&trans      &trans  &trans  &trans                &trans                &trans      &trans  &trans  &mkp MB1        &mkp MB2  &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)
-&trans      &trans  &trans  &trans                &trans                &trans      &trans  &trans  &msc SCRL_UP    &mo 6     &trans                &trans
-&trans      &trans  &trans  &trans                &trans                &trans      &trans  &trans                                                  &trans
+&kp ESCAPE  &trans  &trans  &kp LS(LG(NUMBER_4))  &kp LS(LG(NUMBER_5))                                &trans  &msc SCRL_DOWN  &mo 5     &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)
+&trans      &trans  &trans  &trans                &trans                &trans      &trans            &trans  &mkp MB1        &mkp MB2  &trans                &trans
+&trans      &trans  &trans  &trans                &trans                &trans      &trans            &trans  &msc SCRL_UP    &mo 6     &trans                &trans
+&trans      &trans  &trans  &trans                &trans                &trans      &kp RC(UP_ARROW)  &trans                                                  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
