@@ -2,7 +2,7 @@
 
 ## トラックボール速度 (boards/shields/roBa/roBa_R.conf)
 
-- CONFIG_PMW3610_CPI = 2000 / CONFIG_PMW3610_CPI_DIVIDOR = 2（実効CPI 1000、センサー高解像度モード）
+- CONFIG_PMW3610_CPI = 2400 / CONFIG_PMW3610_CPI_DIVIDOR = 2（実効CPI 1200、センサー高解像度モード）
 - CONFIG_PMW3610_POLLING_RATE_250 = y（ポーリングレート250Hz）
 
 ## タップ反応速度 (config/roBa.keymap)
