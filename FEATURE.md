@@ -5,6 +5,11 @@
 - CONFIG_PMW3610_CPI = 2400 / CONFIG_PMW3610_CPI_DIVIDOR = 2（実効CPI 1200、センサー高解像度モード）
 - CONFIG_PMW3610_POLLING_RATE_250 = y（ポーリングレート250Hz）
 
+## レポートレート制限 (boards/shields/roBa/roBa_R.overlay)
+
+- zip_report_rate_limit 16ms（約60Hz、BLE帯域負荷軽減）
+- 外部モジュール: badjeff/zmk-input-processor-report-rate-limit
+
 ## Bluetooth接続安定化 (boards/shields/roBa/roBa_R.conf)
 
 - CONFIG_BT_PERIPHERAL_PREF_MIN_INT = 12 / CONFIG_BT_PERIPHERAL_PREF_MAX_INT = 12（コネクションインターバル15ms固定、トラックボールのカクつき軽減）
